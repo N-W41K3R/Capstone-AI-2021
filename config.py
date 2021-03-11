@@ -3,7 +3,7 @@ class Config(object):
     """ Wrapper class for various (hyper)parameters. """
     def __init__(self):
         # about the model architecture
-        self.cnn = 'vgg16'               # 'vgg16' or 'resnet50'
+        self.cnn = 'vgg16'               # 'vgg16'
         self.max_caption_length = 20
         self.dim_embedding = 512
         self.num_lstm_units = 512
